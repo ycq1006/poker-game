@@ -704,7 +704,7 @@ function endHand(room, lastMan, showdownResult) {
 }
 
 // ─── Start ────────────────────────────────────────────────────────
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || process.env.RAILWAY_PORT || 3000;
 server.listen(PORT, '0.0.0.0', () => {
   console.log(`🃏 德州扑克服务器启动！`);
   console.log(`   本地访问: http://localhost:${PORT}`);
