@@ -1,0 +1,13 @@
+{
+  "name": "texas-holdem-poker",
+  "version": "1.0.0",
+  "description": "多人德州扑克 - 支持最多7人在线对战",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
+}
