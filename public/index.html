@@ -569,6 +569,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initSocket();
   document.getElementById('btn-create').onclick = createRoom;
   document.getElementById('btn-join').onclick = joinRoom;
+  document.getElementById('btn-start').onclick = startGame;
   document.getElementById('nickname').addEventListener('keydown', e => { if(e.key==='Enter') createRoom(); });
   document.getElementById('room-code').addEventListener('keydown', e => { if(e.key==='Enter') joinRoom(); });
   document.getElementById('raise-inp').addEventListener('keydown', e => { if(e.key==='Enter') doRaise(); });
